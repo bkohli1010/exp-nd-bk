@@ -53,7 +53,7 @@ const fs = require('fs');
         });
         // console.log(body2);
 
-        fs.writeFile(`./carbon/en-us/intelligence-full.html`, body2, err => {
+        fs.writeFile(`./public/intelligence-full.html`, body2, err => {
             if (err) {
                 console.error(err)
                 return;
@@ -70,7 +70,7 @@ const fs = require('fs');
         });
         // console.log(body3);
 
-        fs.writeFile(`./carbon/en-us/charging.html`, body3, err => {
+        fs.writeFile(`./public/charging.html`, body3, err => {
             if (err) {
                 console.error(err)
                 return;
@@ -87,7 +87,7 @@ const fs = require('fs');
         });
         // console.log(body4);
 
-        fs.writeFile(`./carbon/en-us/service.html`, body4, err => {
+        fs.writeFile(`./public/service.html`, body4, err => {
             if (err) {
                 console.error(err)
                 return;
@@ -105,7 +105,7 @@ const fs = require('fs');
         });
         // console.log(body5);
 
-        fs.writeFile(`./carbon/en-us/financing.html`, body5, err => {
+        fs.writeFile(`./public/financing.html`, body5, err => {
             if (err) {
                 console.error(err)
                 return;
